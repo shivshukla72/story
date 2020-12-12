@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script  src="main.js"></script>
+</head>
+<body class="background">
+   <header>
+    	<div class="headers">
+    	   <img src="/home/cedcoss/Desktop/images/story.jpg">
+        </div>
+    </header>
+   
+<section>
+   	<div class="sectionbody2">
+   	<div style="border-bottom: 1px solid black;">
+   	   <h1>Complete the form -</h1>
+   	   <h1>Complete the Story!</h1>
+    </div>
+        <form action="story.html" method="get">
+        	<div style="padding-top: 20px;">
+               <div>
+        	  	  <label for="Animal">Animal</label>
+        	  	  <input type="text"  id="firsts" placeholder="tiger" class="forminput">
+        	  	 </div>
+        	  	  <div>
+        	  	  	<label for="Another Animal">Another Animal</label>
+        	  	  	<input type="text" name="Another Animal" id="second" placeholder="lion" class="forminput" >
+        	  	  	
+        	  	  </div>
+        	  	  <div>
+        	  	  	<label for="One More Animal">One More Animal</label>
+        	  	  	<input type="text" name="One More Animal" id="third" placeholder="dog" class="forminput" >
+        	  	  	
+        	  	  </div>
+        	  	  <div>
+        	  	  	<label for="Adjective">Adjective(past tense):</label>
+        	  	  	<input type="text" name="Adjective" id="adj" placeholder="Alarmed" class="forminput">
+        	  	  	
+        	  	  </div>
+        	  	  <div>
+        	  	  	<label for="Verb">Verb(ends in-eng):</label>
+        	  	  	<input type="text" name="Verb" id="verb" placeholder="running" class="forminput">
+                   </div>
+                   <div>
+        	  	  	<label for="Yes">Yes or No</label>
+        	  	  	<input type="radio" name="response" id="response" value="yes">
+        	  	  	<label type="radio" name="response">Yes</label>
+        	  	  	<input type="radio" name="response" id="response" value="No">
+        	  	  	<label type="radio" name="response">No</label>
+        	  	  	
+        	  	  </div>
+        	  	  <div>
+        	  	  	<label type="number" name="speed">Relative speed(ends in-er):</label>
+        	  	  	<input type="number" name="speed" id="speed" min="1" max="5" size="10" class="forminput">
+        	  	  </div>
+        	  	  <div>
+        	  	  	<label type="text" name="quote">Motivational Quote:</label>
+        	  	  	<input type="text" name="quote" id="quote" placeholder="example" class="forminput">
+        	  	  </div>
+        	  	  <div>
+        	  	  	<label for="text" name="Message" id="msg">Meaningful Message:</label>
+        	  	  </div>
+                  <div>
+                  	<textarea rows="6" cols="30" type="text" id="msgs" name="Message" placeholder="This is a Message" class="forminput messageborder"></textarea>
+                  </div>
+                  <div>
+                  	<input type="submit" onclick="onSubmit()" name="submit" value="Form My Story !" >
+                  </div>
+        	
+            </form>
+          </div>
+       </div>
+   </section> 
+ </body>
+</html>

@@ -1,0 +1,109 @@
+.headers
+{
+	padding: 10px;
+	border-radius: 20px;
+	text-align: center;
+	background-color: white;
+	margin-right:10%;
+	margin-left:10%;
+}
+
+.background
+{
+	background-color: #FFB71E;
+}
+
+
+.sectionbody
+{
+	background-color: #FFF0D0;
+	margin-right:10%;
+	margin-left:10%;
+	border-radius: 20px;
+	padding: 20px;
+	margin-top: 30px;
+	text-align: center;
+	overflow-y: scroll;
+	height: 50vh;
+ }
+ .sectionbody2
+{
+	background-color: #FFF0D0;
+	margin-right:10%;
+	margin-left:10%;
+	border-radius: 20px;
+	padding: 20px;
+	margin-top: 30px;
+	text-align: center;
+	
+ }
+
+ .first
+ {   
+ 	margin-left: 10%;
+    margin-right:10%;
+
+ }
+ .forminput
+ {  
+ 	border-style: none;
+ 	padding: 5px;
+ 	margin: 5px;
+ 	border-radius:6px; 	
+ }
+ .messageborder
+ {
+   border-color:  blue;
+   border-style: double;
+ }
+ span
+ {
+   font-weight: bold;
+ }
+
+/*responsive*/
+@media screen and (max-width: 768px)
+{
+   .headers img
+   {
+      width: 70px;
+      height: 75px;
+      margin-right:54px;
+      margin-left: 50px; 
+   }
+  .headers
+  {
+  	margin-right:20px;
+	margin-left:20px;
+  }
+  .sectionbody
+{
+	
+	margin-right:10px;
+	margin-left:15px;
+	padding: 10px;
+	margin-top: 10px;
+	text-align: center;
+	overflow-y: scroll;
+	height: 50vh;
+ }
+
+ .first
+ {   
+ 	margin-left: 50px;
+    margin-right:50px;
+
+ }
+   .sectionbody2
+  {
+	margin-right:25px;
+	margin-left:25px;
+	padding: 10px;
+	margin-top: 10px;
+	text-align: center;
+	overflow-y: scroll;
+	height: 50vh;
+	
+ }
+
+}
